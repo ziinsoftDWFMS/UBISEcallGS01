@@ -28,7 +28,7 @@ NSString* idForVendor;
     NSMutableDictionary* param = [[NSMutableDictionary alloc] init];
     
     //[param setValue:@"" forKey:@"hp"];
-    
+    [param setObject:@"GS01" forKey:@"code"];
     [param setValue:@"S" forKey:@"gubun"];
     
     [param setObject:idForVendor forKey:@"deviceId"];
