@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E432E9FF-9467-4A1A-BF74-9FA7A3381A43</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>UBISEcallGS01</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>62B0CFAB23EF20603FC236471721AD7B7AB9D788</key>
 		<string>https://github.com/ziinsoftDWFMS/UBISEcallGS01.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UBISEcallGS01.xcodeproj/project.xcworkspace</string>
+	<string>UBISEcallGS01.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>62B0CFAB23EF20603FC236471721AD7B7AB9D788</key>

@@ -35,8 +35,9 @@
     NSMutableDictionary* param = [[NSMutableDictionary alloc] init];
     [param setObject:phone forKey:@"hp"];
     [param setObject:idForVendor forKey:@"deviceId"];
+    [param setValue:@"GS01" forKey:@"code"];
+    [param setValue:@"" forKey:@"gcm_id"];
     [param setValue:@"S" forKey:@"gubun"];
-    [param setValue:@"abcdefxxxzz" forKey:@"gcm_id"];
     NSString* str = [res stringWithUrl:@"regEmcAppInstInfo.do" VAL:param];
     
     NSLog(@" %@",str);
@@ -59,13 +60,13 @@
                 NSLog(@"key %@  value %@",[keys objectAtIndex:i],[jsonInfo objectForKey:[keys objectAtIndex:i]] );
                 
                 
-                [UIView animateWithDuration:0.0 animations:^{
-                    self.view.alpha = 0;
-                } completion:^(BOOL b){
-                    [self.presentingViewController dismissModalViewControllerAnimated:NO];
-                    self.view.alpha = 1;
-                }];
-                
+                //[UIView animateWithDuration:0.0 animations:^{
+                //    self.view.alpha = 0;
+                //} completion:^(BOOL b){
+                //    [self.presentingViewController dismissModalViewControllerAnimated:NO];
+                //    self.view.alpha = 1;
+                //}];
+                [self performSegueWithIdentifier:@"showMainView" sender:self];
             }
         }
         
