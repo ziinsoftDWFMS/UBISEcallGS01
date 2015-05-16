@@ -1,6 +1,6 @@
 //
-//  UbisEcallEV01Tests.m
-//  UbisEcallEV01Tests
+//  UBISEcallHA01Tests.m
+//  UBISEcallHA01Tests
 //
 //  Created by youngseok Kim on 2015. 5. 10..
 //  Copyright (c) 2015년 dwni. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface UbisEcallGS01Tests : XCTestCase
+@interface UBISEcallHA01Tests : XCTestCase
 
 @end
 
-@implementation UbisEcallGS01Tests
+@implementation UBISEcallHA01Tests
 
 - (void)setUp {
     [super setUp];

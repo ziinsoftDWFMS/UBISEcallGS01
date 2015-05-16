@@ -13,13 +13,13 @@
 		57E27DC31B05337B000046EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E27DBF1B05337B000046EA /* SystemConfiguration.framework */; };
 		57E27DC51B05339D000046EA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E27DC41B05339D000046EA /* icon.png */; };
 		57E27DC71B0533A6000046EA /* ic_gas.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E27DC61B0533A6000046EA /* ic_gas.png */; };
+		57E27DFB1B07BB0E000046EA /* UBISEcallGS01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E27DFA1B07BB0E000046EA /* UBISEcallGS01Tests.m */; };
 		57E4F8E21AFF7773003F4ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F8E11AFF7773003F4ABB /* main.m */; };
 		57E4F8E51AFF7773003F4ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F8E41AFF7773003F4ABB /* AppDelegate.m */; };
 		57E4F8E81AFF7773003F4ABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F8E71AFF7773003F4ABB /* ViewController.m */; };
 		57E4F8EB1AFF7773003F4ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E4F8E91AFF7773003F4ABB /* Main.storyboard */; };
 		57E4F8ED1AFF7773003F4ABB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E4F8EC1AFF7773003F4ABB /* Images.xcassets */; };
 		57E4F8F01AFF7773003F4ABB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E4F8EE1AFF7773003F4ABB /* LaunchScreen.xib */; };
-		57E4F8FC1AFF7773003F4ABB /* UBISEcallGS01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F8FB1AFF7773003F4ABB /* UBISEcallGS01Tests.m */; };
 		57E4F90B1AFF79F6003F4ABB /* CAllServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F90A1AFF79F6003F4ABB /* CAllServer.m */; };
 		57E4F90E1AFF7A01003F4ABB /* DwfmsSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F90D1AFF7A01003F4ABB /* DwfmsSegue.m */; };
 		57E4F9121AFF7A15003F4ABB /* IdentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4F9111AFF7A15003F4ABB /* IdentViewController.m */; };
@@ -42,6 +42,7 @@
 		57E27DBF1B05337B000046EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
 		57E27DC41B05339D000046EA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		57E27DC61B0533A6000046EA /* ic_gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_gas.png; sourceTree = "<group>"; };
+		57E27DFA1B07BB0E000046EA /* UBISEcallGS01Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBISEcallGS01Tests.m; sourceTree = "<group>"; };
 		57E4F8DC1AFF7773003F4ABB /* UBISEcallGS01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBISEcallGS01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E4F8E01AFF7773003F4ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E4F8E11AFF7773003F4ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		57E4F8EF1AFF7773003F4ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		57E4F8F51AFF7773003F4ABB /* UBISEcallGS01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBISEcallGS01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E4F8FA1AFF7773003F4ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57E4F8FB1AFF7773003F4ABB /* UBISEcallGS01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBISEcallGS01Tests.m; sourceTree = "<group>"; };
 		57E4F90A1AFF79F6003F4ABB /* CAllServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAllServer.m; sourceTree = "<group>"; };
 		57E4F90C1AFF79FB003F4ABB /* CAllServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAllServer.h; sourceTree = "<group>"; };
 		57E4F90D1AFF7A01003F4ABB /* DwfmsSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwfmsSegue.m; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		57E4F8F81AFF7773003F4ABB /* UBISEcallGS01Tests */ = {
 			isa = PBXGroup;
 			children = (
-				57E4F8FB1AFF7773003F4ABB /* UBISEcallGS01Tests.m */,
+				57E27DFA1B07BB0E000046EA /* UBISEcallGS01Tests.m */,
 				57E4F8F91AFF7773003F4ABB /* Supporting Files */,
 			);
 			path = UBISEcallGS01Tests;
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E4F8FC1AFF7773003F4ABB /* UBISEcallGS01Tests.m in Sources */,
+				57E27DFB1B07BB0E000046EA /* UBISEcallGS01Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
